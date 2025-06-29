@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ZeroPlus Gate | Profile</title>
+    <meta name="description" content="プロフィールサイトを通してHTMLとCSSの基本を身につけましょう">
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--
+        h: 見出し
+
+        p: 段落
+
+        div: グループ化
+
+        img: 画像
+
+        section: 章
+
+        footer: フッター
+
+        small: テキスト小さく
+
+    -->
+    
+    <!--
+       background-color:　背景色
+
+       front-family:　フォントの書体
+
+       front-size:　フォントの大きさ
+
+       front-weight:　フォントの太さ
+
+       margin:　要素の外側の余白
+
+       padding:　要素の内側の余白
+
+       text-aling:　ブロック要素の水平方向の配置
+
+       width:　要素の横幅
+    -->
+
+      <div class="wrapper">
+          <h1 class="name">山田花子</h1>
+
+          <div class="container">
+            <div class="profile-img">
+                <img src="img/profile.jpg" alt="山田花子の写真">
+            </div>
+
+            <saction class="section-wrap">
+                <h2 class="section-ttl">プロフィール</h2>
+                <p>生年月日: 1998.2.26</p>
+                <p>出身: アメリカ in ニューヨーク</p>
+                <p>趣味: カメラ撮影 / 絵を描くこと</p>
+                <p>好きな言葉: freedom of choice for everyone.</p>
+            </saction>
+
+            <section class="section-wrap">
+                <h2 class="section-ttl">略歴</h2>
+                <p>1998年02月 : アメリカ in ニューヨークに生まれる</p>
+                <p>2004年04月 : ニューヨークの小学校に入学</p>
+                <p>2008年12月 : 両親の仕事の関係で日本に移住</p>
+                <p>2016年04月 : 写真の専門学校に入学</p>
+                <p>2018年12月 : Webデザインスクールに入学</p>
+            </section>
+
+            <section class="section-wrap">
+                <h2 class="section-ttl">私の作品</h2>
+                <p>東京のラーメン屋さん</p>
+                <div class="work-img">
+                    <img src="img/work01.jpg" alt="東京のラーメン屋さん">
+                </div>
+                <p>埼玉の桜並木</p>
+                <div class="work-img">
+                    <img src="img/work02.jpg" alt="埼玉の桜並木">
+                </div>
+                <p>富士山</p>
+                <div class="work-img">
+                    <img src="img/work03.jpg" alt="富士山">
+                </div>
+            </section>
+          </div>
+
+          <footer class="footer">
+            <small class="footer-cr">&copy;2021 ZeroPlus Gate.</small>
+          </footer>
+      </div>
+</body>
+</html>
